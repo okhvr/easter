@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  font-family: 'Covered By Your Grace', cursive;
+  text-align: center;
+  color: white;
+}
+nav{
+  height: 70px;
+  background-color: #450940;
+  position: fixed;
+  display: flex;
+  color: #f8aaa4;
+  z-index: 10;
+  top: 0;
+}
+section{
+  height: 650px;
+  box-sizing: border-box;
+}
+h2{
+  color: white;
+}
+h1{
+  font-size: 60px;
+  padding: 7%;
+}
+h4, p{
+  margin: 0;
+  padding: 5%;
+}
+h3{
+  margin: 0;
+  font-size: 70px;
+  padding: 20%;
+}
+nav,
+.eggs_image,
+.overcolor{
+  width: 100%;
+}
+.menu{
+  width: 33%;
+}
+.menu_image{
+  display: block;
+  height: 61px;
+}
+.show_beside{
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu_image,
+.show_beside{
+  width: auto;
+}
+.blue_ground{
+  background-color: #de4a6e;
+  background-image: url("egg3.png");
+}
+.grey_ground{
+  background-color: #a66ee5;
+  background-image: url("egg5.png");
+}
+.blue_ground,
+.grey_ground{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.blue_ground,
+.grey_ground,
+.bunny_image,
+.eggs_image{
+  z-index: 1;
+  position: relative;
+}
+.eggs_image{
+  background-image: url("7.jpg");
+}
+.bunny_image{
+  background-image: url("11.jpg");
+}
+.bunny_image,
+.eggs_image{
+  background-size: cover;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+.overcolor{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.enter{
+  margin: 5px;
+}
